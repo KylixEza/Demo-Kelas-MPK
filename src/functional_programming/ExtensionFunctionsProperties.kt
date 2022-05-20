@@ -8,7 +8,7 @@ fun main() {
 	myName.callMyName().toHashCode().modByThree
 }
 
-fun String.callMyName(): String {
+private fun String.callMyName(): String {
 	return "My name is $this"
 }
 
