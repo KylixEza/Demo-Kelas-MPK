@@ -1,6 +1,6 @@
 package generic
 
-class ClassGeneric(val myName: Any, val address: Any) {
+class ClassGeneric<T, S>(val myName: T, val address: S) {
 
 }
 
